@@ -34,3 +34,4 @@ Term | Explanation|---
 Surface | Any graphics. Only visible if on the display surface.| Import img, create imge, create text.  
 Display surface | Base for all other images on it. Only one in a game?|--- 
 Import image | `pygame.image.load(path)` | Convert for performance 
+Convert image | `ship_surf = pygame.image.load("./graphics/ship.png").convert_alpha() ` | `convert()` if no transparency needed.  
